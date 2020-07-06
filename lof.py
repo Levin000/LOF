@@ -18,10 +18,10 @@ class LOF:
             "溢价率": "discount_rt",
         }
         # 可在列表中添加想要监控的LOF
-        self.LOFList = [161005, 163402]
+        self.LOFList = [161005, 163402, 166006]
         self.LOFList.sort()
         # 公众号折价/溢价提醒参数，百分数；当折价溢价幅度大于等于该参数时提醒
-        self.limit = 1
+        self.limit = 0.75
 
         self.session = requests.Session()
         header = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36",}
