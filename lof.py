@@ -18,7 +18,7 @@ class LOF:
             "溢价率": "discount_rt",
         }
         # 可在列表中添加想要监控的LOF
-        self.LOFList = [161005, 163402, 166006]
+        self.LOFList = [161005, 163402, 166006, 161903]
         self.LOFList.sort()
         # 公众号折价/溢价提醒参数，百分数；当折价溢价幅度大于等于该参数时提醒
         self.limit = 0.5
